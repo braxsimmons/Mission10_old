@@ -1,0 +1,6 @@
+@Mission10_back__HostAddress = http://localhost:5019
+
+GET {{Mission10_back__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
