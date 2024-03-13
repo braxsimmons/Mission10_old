@@ -14,11 +14,14 @@ namespace Mission10_back_.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Bowler> Get()
+        public ActionResult<IEnumerable<Bowler>> GetWithTeams()
         {
-            var BowlerData= _bowlerRepository.Bowlers.ToArray();
-
-            return BowlerData;
+            var bowlerData = _bowlerRepository.GetAllBowlersWithTeams();
+            if (bowlerData == null || !bowlerData.Any())
+            {
+                return NotFound();
+            }
+            return Ok(bowlerData);
         }
 
     }

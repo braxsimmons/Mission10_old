@@ -125,3 +125,4 @@ C:\Users\braxdonsimmons\source\repos\Mission10\backend\Mission10(back)\bin\Debug
 C:\Users\braxdonsimmons\source\repos\Mission10\backend\Mission10(back)\bin\Debug\net8.0\Mission10(back).pdb
 C:\Users\braxdonsimmons\source\repos\Mission10\backend\Mission10(back)\obj\Debug\net8.0\Mission10(back).genruntimeconfig.cache
 C:\Users\braxdonsimmons\source\repos\Mission10\backend\Mission10(back)\obj\Debug\net8.0\ref\Mission10(back).dll
+C:\Users\braxdonsimmons\source\repos\Mission10\backend\Mission10(back)\obj\Debug\net8.0\Mission10(back).sourcelink.json
